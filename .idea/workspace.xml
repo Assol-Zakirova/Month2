@@ -7,6 +7,7 @@
     <list default="true" id="d3f29f64-6853-4e16-9488-07bffe30e0ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/lesson2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.hw1.executor": "Run",
-    "Python.hw2.executor": "Run",
-    "Python.lesson1.executor": "Run",
-    "Python.lesson2.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.hw1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Assol Zakirova\PycharmProjects\lesson 1\OOP\hw" />

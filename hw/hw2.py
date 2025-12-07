@@ -60,5 +60,3 @@ print(Duck.__mro__)
 print(Phoenix.__mro__)
 print(Frog.__mro__)
 print(Bat.__mro__)
-
-

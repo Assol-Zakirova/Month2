@@ -30,23 +30,23 @@
 # gandalf = MageHero("Gandalf", 100, 1000, 100)
 # aragon = WarriorHero("Aragon", 100, 1000, 99)
 
-class Person1:
-    def __init__(self, height, weight):
-        self.height = height
-        self.weight = weight
-    def data(self):
-        return f'Height: {self.height}, weight: {self.weight}'
-class Person2(Person1):
-    def __init__(self, height, weight, name):
-        self.name = name
-        super().__init__(height, weight)
-class Person3(Person2):
-    pass
-b = Person2(188,53, 'jj')
-print(b.data())
-a = Person1(177,48)
-c = Person3(145,39,'hjfa')
-print(c.data())
+# class Person1:
+#     def __init__(self, height, weight):
+#         self.height = height
+#         self.weight = weight
+#     def data(self):
+#         return f'Height: {self.height}, weight: {self.weight}'
+# class Person2(Person1):
+#     def __init__(self, height, weight, name):
+#         self.name = name
+#         super().__init__(height, weight)
+# class Person3(Person2):
+#     pass
+# b = Person2(188,53, 'jj')
+# print(b.data())
+# a = Person1(177,48)
+# c = Person3(145,39,'hjfa')
+# print(c.data())
 # print(a.data())
 
 # print(kirito.action())
@@ -59,29 +59,28 @@ print(c.data())
 
 
 
-# class A:
-#     def action(self):
-#         print('A')
-#
-# class B(A):
-#     def action(self):
-#         super().action()
-#         print('B')
-#
-# class C(A):
-#     def action(self):
-#         super().action()
-#         print('C')
-#
-# class D(B,C):
-#     def action(self):
-#         super().action()
-#         print('D')
-#
-#
-# obj = D()
-# obj.action()
-# print(D.__mro__)
+class A:
+    def action(self):
+        print('A')
+
+class B(A):
+    def action(self):
+        super().action()
+        print('B')
+
+class C(A):
+    def action(self):
+        super().action()
+        print('C')
+
+class D(B, C):
+    def action(self):
+        super().action()
+        print('D')
+
+obj = D()
+obj.action()
+print(D.__mro__)
 
 
 
